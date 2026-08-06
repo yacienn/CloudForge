@@ -9,7 +9,7 @@ export class OrderProcessing{
 
   addOrder(order: Order): void{
     this.queue.enqueue(order);
-    console.log(`The order which contains ${order.id} - ${order.name} - ${order.price} was Added!`);
+    console.log(`The file which contains ${order.id} - ${order.name} - ${order.price} was Added!`);
   }
 
   processOrder(worker : Worker): Promise<string | null>{
