@@ -43,7 +43,7 @@ const worker3 : Worker  = {
   status : Wstatus.IDLE 
 }
 const worker1 : Worker  = {
-  name : "W1",
+  name : "W4",
   status : Wstatus.IDLE 
 }
 startWorker(worker1);
