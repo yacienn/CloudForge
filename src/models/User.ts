@@ -9,7 +9,7 @@ export interface User {
 
 export interface JwtPayload {
  
-  id: string;  // Changed from number to string
+  id: string;  
   userName: string;
   storageUsed: number;
   storageLimit: number;
